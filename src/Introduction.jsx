@@ -1,4 +1,4 @@
-
+import professionalPhoto from './images/professional-photo.jpg'
 
 export default function Introduction() {
     return (
@@ -7,7 +7,7 @@ export default function Introduction() {
             <h2>Introduction</h2>
             <h3>Tanner Gleason | Tiny Giraffe</h3>
             <figure id="professional-photo">
-                <img src="./src/images/professional-photo.jpg" alt="Tanner Gleason" />
+                <img src={professionalPhoto} alt="Tanner Gleason" />
                 <figcaption>Tanner Gleason</figcaption>
             </figure>
             <ul>
