@@ -1,0 +1,30 @@
+
+
+export default function Introduction() {
+    return (
+        <>
+            <title>Tanner Gleason's Tiny Giraffe | ITIS 3135 | Introduction</title>
+            <h2>Introduction</h2>
+            <h3>Tanner Gleason | Tiny Giraffe</h3>
+            <figure id="professional-photo">
+                <img src="./src/images/professional-photo.jpg" alt="Tanner Gleason" />
+                <figcaption>Tanner Gleason</figcaption>
+            </figure>
+            <ul>
+                <li><strong>Personal Background</strong>: I am from Virginia originally but I moved to Charlotte when I was four and have lived here since.</li>
+                <li><strong>Professional Background</strong>: Apart from working at a hotel for a short amount of time, my job experience comes from my current part time job as a software developer where I primarily make tools for the company to use, mostly out of React and Golang.</li>
+                <li><strong>Academic Background</strong>: I earned my associates degree at CPCC and transferred to UNC Charlotte last year. I am a junior majoring in Computer Science with a concentration in Web/Mobile Development and Software Engineering.</li>
+                <li><strong>Primary Computer Platform</strong>: Custom-built, Windows, desktop, primarily work from home.</li>
+                <li><strong>Courses I'm taking and why</strong>: 
+                    <ul>
+                        <li><strong>ITIS3135 - Front-End Web App Development</strong>: Required for degree completion.</li>
+                        <li><strong>ITSC3146 - Intro to Operating Systems & Networking</strong>: Required for degree completion.</li>
+                        <li><strong>ITSC3155 - Software Engineering</strong>: Required for degree completion.</li>
+                        <li><strong>ITSC3160 - Database Design and Implementation</strong>: Required for degree completion.</li>
+                    </ul>
+                </li>
+
+            </ul>
+        </>
+    )
+}
