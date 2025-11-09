@@ -7,6 +7,12 @@ export default function Header() {
                 <a href="introduction">Introduction</a>
                 <a href="contract">Contract</a>    
             </nav>
+            <nav id="secondary-nav">
+                <a href="tiny-giraffe/about.html">Tiny Giraffe</a>
+                <a href="stuff/pages/home/Index page & home.htm">CRAPPY Website</a>
+                <a href="hobby/">Hobby</a>
+                <a href="https://itis3135-react-chi.vercel.app/">React3</a>
+            </nav>
         </header>
     )
 }
